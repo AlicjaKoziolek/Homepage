@@ -1,0 +1,15 @@
+.section__paragraph {
+    line-height: 2;
+}
+
+.section__header1 {
+    color: rgb(76, 12, 92);
+    text-align: center;
+    text-shadow: #e646e6 1px 2px 5px;
+}
+
+.section__header2 {
+    color: rgb(76, 12, 92);
+    text-align: center;
+    text-shadow: #e646e6 1px 2px 5px;
+}
