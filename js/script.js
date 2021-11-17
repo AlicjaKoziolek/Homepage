@@ -1,15 +1,28 @@
-console.log("Witaj! Miło gościć Cię na mojej stronie");
+{
+   const welcome = () => {
+      console.log("Witaj! Miło gościć Cię na mojej stronie");
+   }
 
-let button = document.querySelector(".js-button");
-let container = document.querySelector(".js-container");
-let themeName = document.querySelector(".js-themeName");
+   const toggleBackground = () => {
+      const container = document.querySelector(".js-container");
+      const themeName = document.querySelector(".js-themeName");
 
-button.addEventListener("click", () => {
-    container.classList.toggle("dark"); 
+      container.classList.toggle("dark");
 
-    if (container.classList.contains("dark")) {
-        themeName.innerText = "jasne";
-     } else {
-        themeName.innerText = "ciemne";
-     }
-    });
+      if (container.classList.contains("dark")) {
+         themeName.innerText = "jasne";
+      } else {
+         themeName.innerText = "ciemne";
+      }
+   }
+
+   const init = () => {
+      const button = document.querySelector(".js-button");
+
+      button.addEventListener("click", toggleBackground);
+
+      welcome();
+   }
+   
+   init();
+}
