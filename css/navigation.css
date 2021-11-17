@@ -1,0 +1,27 @@
+.navigation {
+    background-color:rgb(226, 222, 228);
+    padding: 10px 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.navigation__list {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    line-height: 1,8;
+}
+
+.navigation__link:hover {
+color: gray;
+border-bottom: 1px solid;
+}
+
+.navigation__link:active {
+    color: black;
+}
