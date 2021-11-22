@@ -54,4 +54,3 @@ To go to the website, click on the link: [homepage](https://alicjakoziolek.githu
 - CSS
 - BEM
 - S6 JavaScript
-- Media queries
