@@ -9,11 +9,7 @@
 
       container.classList.toggle("dark");
 
-      if (container.classList.contains("dark")) {
-         themeName.innerText = "jasne";
-      } else {
-         themeName.innerText = "ciemne";
-      }
+      themeName.innerText = container.classList.contains("dark") ? "jasne" : "ciemne";
    }
 
    const init = () => {
